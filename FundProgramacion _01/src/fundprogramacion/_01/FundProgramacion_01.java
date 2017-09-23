@@ -24,6 +24,9 @@ public class FundProgramacion_01 {
         System.out.println(ejercicio1.nombrePublic);
         System.err.println(getNombre);
 
+        ejercicio1.setNombre("nombre Private");
+        System.err.println(ejercicio1.getNombre());
+
     }
 
 }
