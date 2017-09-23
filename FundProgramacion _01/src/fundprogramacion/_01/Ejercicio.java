@@ -5,8 +5,6 @@
  */
 package fundprogramacion._01;
 
-import java.util.Scanner;
-
 /**
  *
  * @author xabertum
@@ -22,10 +20,6 @@ public class Ejercicio {
 
     public void setNombre(String n) {
         this.nombre = n;
-    }
-
-    public static void main(String[] args) {
-
     }
 
 }
