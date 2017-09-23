@@ -5,15 +5,31 @@
  */
 package fundprogramacion._01;
 
+import java.util.Scanner;
+
 /**
  *
  * @author xabertum
  */
 public class Ejercicio {
 
+    private String nombre;
+    String nombrePublic;
+
+    public String getNombre() {
+
+        return nombre;
+
+    }
+
     public static void main(String[] args) {
         Clase1 obj1 = new Clase1();
         obj1.imprimir(24.3, 5);
+
+        Scanner sc = new Scanner(System.in);
+        String prueba = sc.nextLine();
+
+        System.out.println(prueba);
 
     }
 
