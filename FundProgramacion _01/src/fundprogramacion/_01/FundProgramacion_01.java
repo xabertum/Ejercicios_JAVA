@@ -16,16 +16,12 @@ public class FundProgramacion_01 {
      */
     public static void main(String[] args) {
 
-        Ejercicio ejercicio1 = new Ejercicio();
+        Prueba miPrueba = new Prueba();
+        int x[] = {24, 24};
 
-        ejercicio1.nombrePublic = "Nombre publico";
-        String getNombre = ejercicio1.getNombre();
-
-        System.out.println(ejercicio1.nombrePublic);
-        System.err.println(getNombre);
-
-        ejercicio1.setNombre("nombre Private");
-        System.err.println(ejercicio1.getNombre());
+        miPrueba.metodo1(x);
+        System.out.println(x[0]);
+        System.out.println(x[1]);
 
     }
 
