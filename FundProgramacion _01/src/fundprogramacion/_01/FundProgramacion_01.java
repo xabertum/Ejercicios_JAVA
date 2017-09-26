@@ -5,6 +5,8 @@
  */
 package fundprogramacion._01;
 
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.Scanner;
 
 /**
@@ -52,6 +54,9 @@ public class FundProgramacion_01 {
 
             }
         }
+
+        GregorianCalendar calendar = new GregorianCalendar();
+        System.err.println(calendar.get(Calendar.DAY_OF_MONTH));
 
     }
 
