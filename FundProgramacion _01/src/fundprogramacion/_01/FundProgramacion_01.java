@@ -34,7 +34,23 @@ public class FundProgramacion_01 {
         } catch (Exception e) {
 
             System.out.println("Lo introducido es: " + sc.nextLine());
+            System.out.println(e.getMessage());
 
+        }
+
+        boolean indiceNoValido = true;
+        int i;
+        String texto[] = {"uno", "dos", "tres", "cuatro", "cinco"};
+        while (indiceNoValido) {
+            try {
+                i = (int) Math.round(Math.random() * 9);
+                System.out.println(texto[i]);
+                indiceNoValido = false;
+
+            } catch (Exception e) {
+                System.err.println("Fallo en el indice..." + e.toString());
+
+            }
         }
 
     }
