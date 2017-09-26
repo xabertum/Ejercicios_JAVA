@@ -5,6 +5,8 @@
  */
 package fundprogramacion._01;
 
+import java.util.Scanner;
+
 /**
  *
  * @author xabertum
@@ -22,6 +24,18 @@ public class FundProgramacion_01 {
         miPrueba.metodo1(x);
         System.out.println(x[0]);
         System.out.println(x[1]);
+
+        Scanner sc = new Scanner(System.in);
+
+        try {
+
+            System.out.println("Lo introducido es: " + sc.nextInt());
+
+        } catch (Exception e) {
+
+            System.out.println("Lo introducido es: " + sc.nextLine());
+
+        }
 
     }
 
