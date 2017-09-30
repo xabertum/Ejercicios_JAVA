@@ -65,6 +65,10 @@ public class FundProgramacion_01 {
         System.out.println(fecha.before(fecha2));
         System.out.println(fecha.after(fecha2));
 
+        Cuenta cuenta1 = new Cuenta(1, 500);
+
+        System.err.println(cuenta1.consultar_saldo());
+
     }
 
 }
