@@ -14,10 +14,10 @@ import java.util.Calendar;
 public class Reloj {
 
     Calendar calendar = Calendar.getInstance();
-    int horas = calendar.get(Calendar.HOUR_OF_DAY);
-    int minutos = calendar.get(Calendar.MINUTE);
-    int segundos = calendar.get(Calendar.SECOND);
-    int pila;
+    private int horas = calendar.get(Calendar.HOUR_OF_DAY);
+    private int minutos = calendar.get(Calendar.MINUTE);
+    private int segundos = calendar.get(Calendar.SECOND);
+    private int pila;
 
     public int getHoras() {
         return horas;
