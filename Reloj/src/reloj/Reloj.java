@@ -19,6 +19,16 @@ public class Reloj {
     private int segundos = calendar.get(Calendar.SECOND);
     private int pila;
 
+    public Reloj() {
+    }
+
+    public Reloj(int pila) {
+        this.pila = pila;
+    }
+
+    /**
+     * *****************************
+     */
     public int getHoras() {
         return horas;
     }
