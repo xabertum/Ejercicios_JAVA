@@ -17,6 +17,7 @@ public class Reloj {
     int horas = calendar.get(Calendar.HOUR_OF_DAY);
     int minutos = calendar.get(Calendar.MINUTE);
     int segundos = calendar.get(Calendar.SECOND);
+    int pila;
 
     public int getHoras() {
         return horas;
@@ -49,7 +50,6 @@ public class Reloj {
     public void setPila(int pila) {
         this.pila = pila;
     }
-    int pila = 120;
 
     /**
      * @param args the command line arguments
@@ -58,7 +58,7 @@ public class Reloj {
 
         Reloj reloj1 = new Reloj();
 
-        System.out.println(reloj1.horas + ":" + reloj1.minutos + ":" + reloj1.segundos);
+        System.out.println(reloj1.getHoras() + ":" + reloj1.getMinutos() + ":" + reloj1.getSegundos());
 
         System.err.println();
 
