@@ -61,17 +61,4 @@ public class Reloj {
         this.pila = pila;
     }
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-
-        Reloj reloj1 = new Reloj();
-
-        System.out.println(reloj1.getHoras() + ":" + reloj1.getMinutos() + ":" + reloj1.getSegundos());
-
-        System.err.println();
-
-    }
-
 }
