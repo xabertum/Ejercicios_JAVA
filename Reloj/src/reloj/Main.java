@@ -18,9 +18,9 @@ public class Main {
 
         Reloj reloj1 = new Reloj();
 
-        System.out.println(reloj1.getHoras() + ":" + reloj1.getMinutos() + ":" + reloj1.getSegundos());
+        int pila = reloj1.getPila();
 
-        System.err.println();
+        System.out.println(reloj1.getHoras() + ":" + reloj1.getMinutos() + ":" + reloj1.getSegundos());
 
     }
 
