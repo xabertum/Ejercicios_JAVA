@@ -18,13 +18,38 @@ public class Reloj {
     int minutos = calendar.get(Calendar.MINUTE);
     int segundos = calendar.get(Calendar.SECOND);
 
-    public static String string() {
-
-        String relojString = "";
-
-        return relojString;
-
+    public int getHoras() {
+        return horas;
     }
+
+    public void setHoras(int horas) {
+        this.horas = horas;
+    }
+
+    public int getMinutos() {
+        return minutos;
+    }
+
+    public void setMinutos(int minutos) {
+        this.minutos = minutos;
+    }
+
+    public int getSegundos() {
+        return segundos;
+    }
+
+    public void setSegundos(int segundos) {
+        this.segundos = segundos;
+    }
+
+    public int getPila() {
+        return pila;
+    }
+
+    public void setPila(int pila) {
+        this.pila = pila;
+    }
+    int pila = 120;
 
     /**
      * @param args the command line arguments
@@ -34,6 +59,8 @@ public class Reloj {
         Reloj reloj1 = new Reloj();
 
         System.out.println(reloj1.horas + ":" + reloj1.minutos + ":" + reloj1.segundos);
+
+        System.err.println();
 
     }
 
