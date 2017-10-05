@@ -5,6 +5,9 @@
  */
 package reloj;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author xabertum
@@ -18,9 +21,22 @@ public class Main {
 
         Reloj reloj1 = new Reloj();
 
+        reloj1.setPila(60000);
         int pila = reloj1.getPila();
 
-        System.out.println(reloj1.getHoras() + ":" + reloj1.getMinutos() + ":" + reloj1.getSegundos());
+        do {
+
+            System.out.println(reloj1.getHoras() + ":" + reloj1.getMinutos() + ":" + reloj1.getSegundos());
+
+            pila--;
+
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException ex) {
+                Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+            }
+
+        } while (pila <= 0);
 
     }
 
