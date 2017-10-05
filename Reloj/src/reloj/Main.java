@@ -5,6 +5,7 @@
  */
 package reloj;
 
+import java.util.Calendar;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -14,29 +15,37 @@ import java.util.logging.Logger;
  */
 public class Main {
 
+    int pila;
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
 
-        Reloj reloj1 = new Reloj();
+        try {
 
-        reloj1.setPila(60000);
-        int pila = reloj1.getPila();
+            Reloj reloj1 = new Reloj();
+            reloj1.setPila(60);
+            int pila = reloj1.getPila();
 
-        do {
+            do {
 
-            System.out.println(reloj1.getHoras() + ":" + reloj1.getMinutos() + ":" + reloj1.getSegundos());
+                Calendar calendar = Calendar.getInstance();
+                int horas = calendar.get(Calendar.HOUR_OF_DAY);
+                int minutos = calendar.get(Calendar.MINUTE);
+                int segundos = calendar.get(Calendar.SECOND);
 
-            pila--;
-
-            try {
+                System.out.println(horas + ":" + minutos + ":" + segundos);
+                System.err.println("Pila: " + pila);
                 Thread.sleep(1000);
-            } catch (InterruptedException ex) {
-                Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
-            }
 
-        } while (pila <= 0);
+                pila--;
+
+            } while (pila >= 0);
+
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+        }
 
     }
 
