@@ -16,7 +16,9 @@ public class BattleShip {
      */
     public static void main(String[] args) {
         
-        
+    char [][] map = new char[9][9];
+    
+    
         
         
         
