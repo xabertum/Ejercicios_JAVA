@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package arraylist;
+package MyClass_arraylist;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -19,7 +19,7 @@ public class MyClass {
      */
     public static void main(String[] args) {
 
-        ArrayList<String> name = new ArrayList<String>();
+        ArrayList<String> name = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
 
         for (int i = 0; i < 4; i++) {
