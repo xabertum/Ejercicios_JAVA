@@ -24,6 +24,17 @@ public class Examples {
 
         System.out.println("Volume is " + volume);
 
+        //Demonstrate lifetime of a variable
+        for (int i = 0; i < 3; i++) {
+
+            int y = -1; // y is initialized each time block is entered
+            System.out.println("y is:  " + y);
+
+            y = 100;
+            System.err.println("y is now: " + y);
+
+        }
+
     }
 
 }
