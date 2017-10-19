@@ -5,6 +5,8 @@
  */
 package examples;
 
+import java.io.Console;
+
 /**
  *
  * @author xabertum
@@ -36,6 +38,16 @@ public class Examples {
         }
 
         //The show must go on...
+        Console exampleConsole = System.console();
+        String exampleString = "This is an example String\n";
+
+        try {
+
+            exampleConsole.printf("%s", exampleString);
+
+        } catch (Exception e) {
+        }
+
     }
 
 }
