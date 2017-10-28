@@ -41,6 +41,12 @@ public class Examples {
         String exampleString = "This is an example String\n";
         System.out.printf("%s", exampleString);
 
+        //foreach loop control
+        int[] arr = {2, 3, 4, 5, 6};
+        for (int el : arr) {
+            System.out.println(el);
+        }
+
     }
 
 }
