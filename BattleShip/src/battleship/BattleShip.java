@@ -20,16 +20,12 @@ public class BattleShip {
 
         char[][] map = new char[2][2];
 
-        for (int i = 0; i < map.length; i++) {
-            for (int j = 0; j < map[i].length; j++) {
-                
-                map[i][j] = '@';
-                
-                System.out.println( i + "|" + Arrays.toString(map[0]));
-
+        for (char[] map1 : map) {
+            for (int j = 0; j < map1.length; j++) {
+                map1[j] = '@';
+                System.out.println(Arrays.deepToString(map));
             }
-
         }
     }
-    
+
 }
