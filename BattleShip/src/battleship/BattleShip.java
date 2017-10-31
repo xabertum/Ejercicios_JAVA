@@ -18,14 +18,19 @@ public class BattleShip {
      */
     public static void main(String[] args) {
 
-        char[][] map = new char[2][2];
+        int[][] map = new int[9][9];
 
-        for (char[] map1 : map) {
-            for (int j = 0; j < map1.length; j++) {
-                map1[j] = '@';
-                System.out.println(Arrays.deepToString(map));
+        /* Creating the numbers on the grid */
+        for (int row = 0; row < map.length; row++) {
+            System.out.println(row + "|");
+            for (int col = 0; col < map[row].length; col++) {
+                if (map[row][col] == null) {
+
+                }
             }
+
         }
+
     }
 
 }
