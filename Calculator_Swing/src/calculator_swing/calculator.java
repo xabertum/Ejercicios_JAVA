@@ -27,6 +27,7 @@ public class calculator extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        buttonGroup1 = new javax.swing.ButtonGroup();
         jTextField1 = new javax.swing.JTextField();
         jRadioButton1 = new javax.swing.JRadioButton();
         jRadioButton2 = new javax.swing.JRadioButton();
@@ -56,8 +57,10 @@ public class calculator extends javax.swing.JFrame {
         jTextField1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jTextField1.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
 
+        buttonGroup1.add(jRadioButton1);
         jRadioButton1.setText("on");
 
+        buttonGroup1.add(jRadioButton2);
         jRadioButton2.setText("off");
 
         jButton1.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
@@ -267,6 +270,7 @@ public class calculator extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
