@@ -24,11 +24,13 @@ public class BattleShip {
         for (int row = 0; row < map.length; row++) {
             System.out.println(row + "|");
             for (int col = 0; col < map[row].length; col++) {
-                if (map[row][col] == null) {
-
+                if (map[row][col] == 0) {
+                    System.out.print(" ");
+                } else {
+                    System.out.print(map[row][col]);
                 }
             }
-
+            System.out.println("|" + row);
         }
 
     }
