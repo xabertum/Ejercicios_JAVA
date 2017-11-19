@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<departamento_RRHH>
+
+    <persona>
+        <datos_basicos>
+            <DNI></DNI>
+            <nombre></nombre>
+            <apellidos></apellidos>
+            <fecha_nacimiento></fecha_nacimiento>
+
+        </datos_basicos>
+        <domicilios>
+            <domicilio principial = "si">
+                <poblacion>Puertollano</poblacion>
+                <cp>13500</cp>
+                <direccion>
+                    <tipo>calle</tipo>
+                    <nombre_direccion>maria de zayas</nombre_direccion>
+                    <numero>1</numero>
+                </direccion>
+
+            </domicilio>
+        </domicilios>
+
+
+
+
+    </persona>
+
+
+
+</departamento_RHH>
