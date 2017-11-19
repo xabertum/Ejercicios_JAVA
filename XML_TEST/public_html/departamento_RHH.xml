@@ -5,10 +5,10 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 
-<!DOCTYPE departamento_RRHH SYSTEM "Departamento_RHH.dtd">
+<!DOCTYPE departamento_RRHH SYSTEM "departamento_RHH.dtd">
 <departamento_RRHH>
 
-    <persona num_ref="0025">
+    <persona num_ref="001">
         <datos_basicos>
             <DNI>05920640A</DNI>
             <nombre>Javier</nombre>
@@ -27,21 +27,10 @@ and open the template in the editor.
                     <puerta></puerta>
                 </direccion>
             </domicilio>
-
-            <domicilio principial = "no">
-                <poblacion>Puertollano</poblacion>
-                <cp>13500</cp>
-                <direccion>
-                    <tipo>calle</tipo>
-                    <nombre_direccion>daimiel</nombre_direccion>
-                    <numero>6</numero>
-                    <puerta></puerta>
-                </direccion>
-            </domicilio>
         </domicilios>
     </persona>
 
-    <persona num_ref="0015">
+    <persona num_ref="002">
         <datos_basicos>
             <DNI>05936648A</DNI>
             <nombre>Oscar</nombre>
