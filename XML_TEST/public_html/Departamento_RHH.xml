@@ -10,10 +10,10 @@ and open the template in the editor.
 
     <persona num_ref="0025">
         <datos_basicos>
-            <DNI></DNI>
-            <nombre></nombre>
-            <apellidos></apellidos>
-            <fecha_nacimiento></fecha_nacimiento>
+            <DNI>05920640A</DNI>
+            <nombre>Javier</nombre>
+            <apellidos>Delgado Mohatar</apellidos>
+            <fecha_nacimiento>17-12-1982</fecha_nacimiento>
 
         </datos_basicos>
         <domicilios>
