@@ -5,17 +5,9 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 
-<!--
-    TODO define vocabulary identification data
-    PUBLIC ID  : -//vendor//vocabulary//EN
-    SYSTEM ID  : http://server/path/__NAME__
--->
 
-<!-- TODO define your own vocabulary/syntax. Example follows:  -->
+<!DOCTYPE brekfast_menu [
 
-<!DOCTYPE breakfast_menu [
-
-<!ELEMENT breakfast_menu (food+)>
 
 
 
