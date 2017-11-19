@@ -25,7 +25,7 @@
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT persona (datos_basicos|domicilios)*>
 <!ATTLIST persona
-    num_ref CDATA #IMPLIED
+    num_ref CDATA #REQUIRED
   >
 
 <!--- Put your DTDDoc comment here. -->
@@ -49,7 +49,7 @@
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT domicilio (poblacion|cp|direccion)*>
 <!ATTLIST domicilio
-    principial CDATA #IMPLIED
+    principial CDATA #REQUIRED
   >
 
 <!--- Put your DTDDoc comment here. -->
