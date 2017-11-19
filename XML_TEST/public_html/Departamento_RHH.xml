@@ -14,8 +14,8 @@ and open the template in the editor.
             <nombre>Javier</nombre>
             <apellidos>Delgado Mohatar</apellidos>
             <fecha_nacimiento>17-12-1982</fecha_nacimiento>
-
         </datos_basicos>
+
         <domicilios>
             <domicilio principial = "si">
                 <poblacion>Puertollano</poblacion>
@@ -39,10 +39,39 @@ and open the template in the editor.
                 </direccion>
             </domicilio>
         </domicilios>
-
-
     </persona>
 
+    <persona num_ref="0015">
+        <datos_basicos>
+            <DNI>05936648A</DNI>
+            <nombre>Oscar</nombre>
+            <apellidos>Perico Perez</apellidos>
+            <fecha_nacimiento>17-12-1982</fecha_nacimiento>
+        </datos_basicos>
 
+        <domicilios>
+            <domicilio principial = "si">
+                <poblacion>Puertollano</poblacion>
+                <cp>13500</cp>
+                <direccion>
+                    <tipo>calle</tipo>
+                    <nombre_direccion>Maria de zayas</nombre_direccion>
+                    <numero>1</numero>
+                    <puerta>3</puerta>
+                </direccion>
+            </domicilio>
+
+            <domicilio principial = "no">
+                <poblacion>Puertollano</poblacion>
+                <cp>13500</cp>
+                <direccion>
+                    <tipo>calle</tipo>
+                    <nombre_direccion>daimiel</nombre_direccion>
+                    <numero>6</numero>
+                    <puerta></puerta>
+                </direccion>
+            </domicilio>
+        </domicilios>
+    </persona>
 
 </departamento_RRHH>
