@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/Departamento_RHH.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE departamento_RRHH SYSTEM "Departamento_RHH.dtd">
+
+    <departamento_RRHH>
+    ...
+    </departamento_RRHH>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT departamento_RRHH (persona)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT persona (datos_basicos|domicilios)*>
+<!ATTLIST persona
+    num_ref CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT datos_basicos (DNI|nombre|apellidos|fecha_nacimiento)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT DNI (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nombre (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT apellidos (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT fecha_nacimiento (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT domicilios (domicilio)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT domicilio (poblacion|cp|direccion)*>
+<!ATTLIST domicilio
+    principial CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT poblacion (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT cp (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT direccion (tipo|nombre_direccion|numero|puerta)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT tipo (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nombre_direccion (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT numero (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT puerta EMPTY>
