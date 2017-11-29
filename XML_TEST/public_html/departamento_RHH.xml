@@ -15,6 +15,11 @@ and open the template in the editor.
             <apellidos>Delgado Mohatar</apellidos>
             <fecha_nacimiento>17-12-1982</fecha_nacimiento>
         </datos_basicos>
+        
+        <telefonos>
+            <telefono principal="si">682457410</telefono>
+            <telefono principal="no">926421705</telefono>
+        </telefonos>
 
         <domicilios>
             <domicilio principial = "si">
@@ -37,6 +42,11 @@ and open the template in the editor.
             <apellidos>Perico Perez</apellidos>
             <fecha_nacimiento>17-12-1982</fecha_nacimiento>
         </datos_basicos>
+
+        <telefonos>
+            <telefono principal="si">682457410</telefono>
+            <telefono principal="no">926421705</telefono>
+        </telefonos>
 
         <domicilios>
             <domicilio principial = "si">
