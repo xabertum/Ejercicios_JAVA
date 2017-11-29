@@ -29,7 +29,6 @@ and open the template in the editor.
                     <tipo>calle</tipo>
                     <nombre_direccion>maria de zayas</nombre_direccion>
                     <numero>1</numero>
-                    <puerta></puerta>
                 </direccion>
             </domicilio>
         </domicilios>
@@ -67,7 +66,6 @@ and open the template in the editor.
                     <tipo>calle</tipo>
                     <nombre_direccion>daimiel</nombre_direccion>
                     <numero>6</numero>
-                    <puerta></puerta>
                 </direccion>
             </domicilio>
         </domicilios>
