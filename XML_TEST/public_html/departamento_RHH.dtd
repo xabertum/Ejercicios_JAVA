@@ -3,9 +3,8 @@
 <!-- DTD para validar el archivo departamento_RRHH.xml -->
 
 <!ELEMENT departamento_RRHH (persona)*>
-<!ELEMENT persona (datos_basicos|telefonos|domicilios)*>
+<!ELEMENT persona (datos_basicos,telefonos,domicilios)+>
 <!ATTLIST persona num_ref CDATA #REQUIRED>
-
 
 <!ELEMENT datos_basicos (DNI,nombre,apellidos,fecha_nacimiento)+>
 <!ELEMENT DNI (#PCDATA)>
@@ -14,10 +13,8 @@
 <!ELEMENT fecha_nacimiento (#PCDATA)>
 <!ELEMENT telefonos (telefono)*>
 
-
 <!ELEMENT telefono (#PCDATA)>
 <!ATTLIST telefono principal CDATA #REQUIRED>
-
 
 <!ELEMENT domicilios (domicilio)*>
 <!ELEMENT domicilio (poblacion,cp,direccion)+>
