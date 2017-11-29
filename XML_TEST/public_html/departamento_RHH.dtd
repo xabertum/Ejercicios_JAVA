@@ -3,7 +3,7 @@
 <!--
     TODO define vocabulary identification
     PUBLIC ID: -//vendor//vocabulary//EN
-    SYSTEM ID: http://server/path/Departamento_RHH.dtd
+    SYSTEM ID: http://server/path/departamento_RHH.dtd
 
 -->
 
@@ -12,7 +12,7 @@
 
     <?xml version="1.0"?>
 
-    <!DOCTYPE departamento_RRHH SYSTEM "Departamento_RHH.dtd">
+    <!DOCTYPE departamento_RRHH SYSTEM "departamento_RHH.dtd">
 
     <departamento_RRHH>
     ...
@@ -23,7 +23,7 @@
 <!ELEMENT departamento_RRHH (persona)*>
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT persona (datos_basicos|domicilios)*>
+<!ELEMENT persona (datos_basicos|telefonos|domicilios)*>
 <!ATTLIST persona
     num_ref CDATA #IMPLIED
   >
@@ -42,6 +42,15 @@
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT fecha_nacimiento (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT telefonos (telefono)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT telefono (#PCDATA)>
+<!ATTLIST telefono
+    principal CDATA #IMPLIED
+  >
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT domicilios (domicilio)*>

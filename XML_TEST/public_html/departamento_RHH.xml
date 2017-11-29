@@ -15,7 +15,7 @@ and open the template in the editor.
             <apellidos>Delgado Mohatar</apellidos>
             <fecha_nacimiento>17-12-1982</fecha_nacimiento>
         </datos_basicos>
-        
+
         <telefonos>
             <telefono principal="si">682457410</telefono>
             <telefono principal="no">926421705</telefono>
@@ -44,8 +44,8 @@ and open the template in the editor.
         </datos_basicos>
 
         <telefonos>
-            <telefono principal="si">682457410</telefono>
-            <telefono principal="no">926421705</telefono>
+            <telefono principal="si">675644123</telefono>
+            <telefono principal="no">934567891</telefono>
         </telefonos>
 
         <domicilios>
