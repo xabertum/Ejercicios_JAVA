@@ -21,8 +21,8 @@
 <!ATTLIST domicilio principial CDATA #REQUIRED>
 <!ELEMENT poblacion (#PCDATA)>
 <!ELEMENT cp (#PCDATA)>
-<!ELEMENT direccion (tipo,nombre_direccion,numero,puerta)+>
+<!ELEMENT direccion (tipo,nombre_direccion,numero,puerta?)+>
 <!ELEMENT tipo (#PCDATA)>
 <!ELEMENT nombre_direccion (#PCDATA)>
 <!ELEMENT numero (#PCDATA)>
-<!ELEMENT puerta? (#PCDATA)>
+<!ELEMENT puerta (#PCDATA)>
