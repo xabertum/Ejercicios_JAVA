@@ -1,16 +1,14 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<xsl:stylesheet version="1.0"
-                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output method="html" version="4.0" encoding="UTF-8" indent="yes"/>
 
-    <xsl:template match="/">
+    <xsl:template match="/departamento_RRHH">
         <html>
             <head>
-
             </head>
 
             <body>
-
                 <h2>Expediente de RRHH</h2>
                 <table border="1">
                     <tr bgcolor="blue">
@@ -20,7 +18,7 @@
 
                     <xsl:for-each select="persona/datos_basicos">
 
-                        <tr bgcolor="blue">
+                        <tr bgcolor="">
                             <td>
                                 <xsl:value-of select="DNI"/>
                             </td>
@@ -36,5 +34,5 @@
             </body>
         </html>
     </xsl:template>
-
-
+    
+</xsl:stylesheet>
