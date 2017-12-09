@@ -1,4 +1,0 @@
-XML validation started.
-Checking file:/E:/MEGAsync/www/Ejercicios_Java/XML_TEST/public_html/departamento_RHH.xml...
-Referenced entity at "file:/E:/MEGAsync/www/Ejercicios_Java/XML_TEST/public_html/departamento_RHH.dtd".
-XML validation finished.

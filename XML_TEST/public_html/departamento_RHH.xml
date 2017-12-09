@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE departamento_RRHH SYSTEM "departamento_RHH.dtd">
-<?xml-stylesheet type="text/xsl" href="newstylesheet.xsl"?>
+<?xml-stylesheet type="text/xsl" href="departamento_RRHH.xsl"?>
 
 <departamento_RRHH>
 
