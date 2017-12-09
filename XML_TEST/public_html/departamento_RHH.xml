@@ -29,6 +29,41 @@
                 </direccion>
             </domicilio>
         </domicilios>
+
+        <curriculum>
+            <experiencia_laboral>
+                <puesto_de_trabajo>
+                    <empresa>hal informatica</empresa>
+                    <fechaalta>1/7/1986</fechaalta>
+                    <fechabaja>6/7/1992</fechabaja>
+                    <cargo>Programador</cargo>
+                    <tareasrealizadas>programación</tareasrealizadas>
+                </puesto_de_trabajo>
+
+                <puesto_de_trabajo>
+                    <empresa>Sistemas informaticos</empresa>
+                    <fechaalta>7/7/1992</fechaalta>
+                    <fechabaja>31/12/1997</fechabaja>
+                    <cargo>Analista programador</cargo>
+                    <tareasrealizadas>Analisis de requisitos</tareasrealizadas>
+                </puesto_de_trabajo>
+
+            </experiencia_laboral>
+
+            <idiomas>
+                <idioma nivel="Alto">Ingles</idioma>
+                <idioma nivel="Medio">Frances</idioma>
+            </idiomas>
+
+            <aficiones>
+                <aficion>musica</aficion>
+                <aficion>fotografia</aficion>
+                <aficion>viajar</aficion>
+            </aficiones>
+        </curriculum>
+
+        <observaciones>Disminución física del 34%</observaciones>
+
     </persona>
 
     <persona num_ref="002">
@@ -66,6 +101,40 @@
                 </direccion>
             </domicilio>
         </domicilios>
-    </persona>
 
+        <curriculum>
+            <experiencia_laboral>
+                <puesto_de_trabajo>
+                    <empresa>hal informatica</empresa>
+                    <fechaalta>1/7/1986</fechaalta>
+                    <fechabaja>6/7/1992</fechabaja>
+                    <cargo>Programador</cargo>
+                    <tareasrealizadas>programación</tareasrealizadas>
+                </puesto_de_trabajo>
+
+                <puesto_de_trabajo>
+                    <empresa>Sistemas informaticos</empresa>
+                    <fechaalta>7/7/1992</fechaalta>
+                    <fechabaja>31/12/1997</fechabaja>
+                    <cargo>Analista programador</cargo>
+                    <tareasrealizadas>Analisis de requisitos</tareasrealizadas>
+                </puesto_de_trabajo>
+
+            </experiencia_laboral>
+
+            <idiomas>
+                <idioma nivel="Alto">Ingles</idioma>
+                <idioma nivel="Medio">Frances</idioma>
+            </idiomas>
+
+            <aficiones>
+                <aficion>musica</aficion>
+                <aficion>fotografia</aficion>
+                <aficion>viajar</aficion>
+            </aficiones>
+        </curriculum>
+
+        <observaciones></observaciones>
+
+    </persona>
 </departamento_RRHH>
