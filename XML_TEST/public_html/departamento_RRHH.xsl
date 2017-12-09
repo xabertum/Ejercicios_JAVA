@@ -22,7 +22,7 @@
 
                     <xsl:for-each select="persona">
 
-                        <tr bgcolor="" align="center">
+                        <tr align="center">
                             <td>
                                 <xsl:value-of select="datos_basicos/nombre"/>
                             </td>
@@ -45,7 +45,6 @@
                     </xsl:for-each>
 
                 </table>
-
             </body>
         </html>
     </xsl:template>
