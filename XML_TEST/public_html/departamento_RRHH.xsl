@@ -11,20 +11,35 @@
             <body>
                 <h2>Expediente de RRHH</h2>
                 <table border="1">
-                    <tr bgcolor="blue">
-                        <th>Asignatura</th>
-                        <th>Nota</th>
+                    <tr bgcolor="lightgray">
+                        <th>Nombre</th>
+                        <th>Apellidos</th>
+                        <th>Direccion</th>
+                        <th>Poblacion</th>
+                        <th>Nº Tfno. Principal</th>
+
                     </tr>
 
-                    <xsl:for-each select="persona/datos_basicos">
+                    <xsl:for-each select="persona">
 
-                        <tr bgcolor="">
+                        <tr bgcolor="" align="center">
                             <td>
-                                <xsl:value-of select="DNI"/>
+                                <xsl:value-of select="datos_basicos/nombre"/>
                             </td>
                             <td>
-                                <xsl:value-of select="nombre"/>
+                                <xsl:value-of select="datos_basicos/apellidos"/>
                             </td>
+                            <td>
+                                <xsl:value-of select="domicilios/domicilio/direccion/nombre_direccion"/>
+                            </td>
+                            <td>
+                                <xsl:value-of select="domicilios/domicilio/poblacion"/>
+                            </td>
+
+                            <td>
+                                <xsl:value-of select="telefonos/telefono[@principal='si']"/>
+                            </td>
+
                         </tr>
 
                     </xsl:for-each>
@@ -34,5 +49,5 @@
             </body>
         </html>
     </xsl:template>
-    
+
 </xsl:stylesheet>
